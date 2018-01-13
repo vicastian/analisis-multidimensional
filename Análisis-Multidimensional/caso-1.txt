@@ -1,0 +1,12 @@
+haga un paquete en integration services que declare 
+- 3 variables readonly de tipo real (flotante) llamadas a, b y c 
+- 3 variables readwrite de tipo real (flotante) llamadas
+	- discriminante
+	- x1
+	- x2
+el paquete contiene un script task que las recibe y realiza el cálculo de la resolución de una ecuación de segundo grado con una incógnita (ax2+bx+c=0)
+el paquete devuelve alguno de los siguientes casos:
+	- solución vacía (discriminante < 0)
+	- solución única (discriminante = 0)
+	- solución múltiple (discriminante > 0)
+	- error porque a = 0
