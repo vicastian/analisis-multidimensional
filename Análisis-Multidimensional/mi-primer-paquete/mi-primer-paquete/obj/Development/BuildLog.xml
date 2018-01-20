@@ -2,13 +2,28 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>mi-primer-paquete</Name>
-    <LastWriteTime>2018-01-13T01:22:37.7839035Z</LastWriteTime>
+    <LastWriteTime>2018-01-20T01:46:06.2280823Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>mi-primer-hello-world.dtsx</Name>
-      <LastWriteTime>2018-01-13T01:27:11.7479683Z</LastWriteTime>
+      <LastWriteTime>2018-01-13T01:42:55.2714296Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>flow-control-example.dtsx</Name>
+      <LastWriteTime>2018-01-20T01:15:04.2092138Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>grade-control.dtsx</Name>
+      <LastWriteTime>2018-01-20T01:39:34.9314886Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>flow-control-error-example.dtsx</Name>
+      <LastWriteTime>2018-01-20T01:46:06.1499447Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

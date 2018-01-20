@@ -26,11 +26,14 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LAB9-12</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdHP0kga0wkiHhfz3BX4z8gAAAAACAAAAAAADZgAAwAAAABAAAAAbAEXzmfSbNaaQ39oObiR3AAAAAASAAACgAAAAEAAAAL56RngxNYZmUIKoDhCzFYSIAAAAtlgFYuzkbYjMtEgo6DgkZHSQhuhAYfz2XL+B2mbDyCM+aKxQrsD0LMG1jwTQJs1OdZBwAip6nAsEbC4xNLPBGC4K8nzlCYwNLiL6/Uo+Pvb2pw8Q87AM0m7OaoYtc38KvTc90NlfSoSaan7540LynyGD+gBXndmckzDV5sU6Fd7teABPLLoNuRQAAADh8Gkxwbvy1WTuMZutWPRmsl8w1g==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdHP0kga0wkiHhfz3BX4z8gAAAAACAAAAAAADZgAAwAAAABAAAABkDkT5gfbm/z/CwBUr1pp5AAAAAASAAACgAAAAEAAAAGBzpAEz4Yww6EIYV7kJpKGIAAAArJ2mjMFkMAG0M7gh5j5MKmrCbJGHErdKXEsyV/aZfjdgAqWWjSDmpCR4hMguoGPZT0mWMKLeUAQO9/8FyXN16/lRqbsWmXazZe4vcS6AdGdf6Wc6cK/ajB15SBC7pWa2ZXkmb7VdySOwr9sfiHNPcF7kBaWlfE46GqfkiVnJu+zF4rO896IgihQAAAC18TTrpn0XwUE4dQeRiIJ1bIqI/g==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="mi-primer-hello-world.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="flow-control-example.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="grade-control.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="flow-control-error-example.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -46,6 +49,57 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{95FBF1CB-83D8-4A18-954B-FF060740B9C3}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="flow-control-example.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{33D93CD7-9CF4-4F41-A115-EF3B3B9E7C63}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">flow-control-example</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{250BEA0F-2B31-4225-987D-646C828CB5EF}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="grade-control.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{F7DEB3F1-49B6-4CF7-9377-AE957918AC52}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">grade-control</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">15</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{B3F10FEF-0B31-471E-A90E-094CDCB36DF3}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="flow-control-error-example.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{82563E24-D58B-4ABA-AA48-48BA519C5BB7}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">flow-control-error-example</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">9</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{CB6262C1-5FD3-40CB-AEFD-D9389E4E61FB}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
